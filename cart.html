@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alchem | Ecommerce Website</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+  <!-- <script src="./src/index.js"></script> -->
+</head> 
+<body>
+
+  <!-- header section -->
+
+  <div class="header">
+    <div class="container">
+      <div class="nav-bar">
+        <nav>
+          <ul id="menuItems">
+            <li><a href="./index.html">Home</a></li>
+            <li><a  href="#products">Products</a></li>
+            <li><a  href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="./images/cart.png" width="30px" height="30px">
+        <img class="menu-icon" src="./images/menu.png" onclick="menutoggle()">
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- cart details -->
+
+
+  <div class="small-container cart-page">
+
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>quantity</th>
+        <th>subtotal</th>
+      </tr>
+      <tr class="pushed-item">
+        <td>
+          <div class="cart-info">
+            <img src="./images/Chaff Cutter Petrol Powered 2 Blade.jpg" alt="">
+            <div>
+              <p>Chaff cutter</p>
+              <small>price:ksh 15000 </small>
+              <a href="">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>ksh 50</td>
+      </tr>
+      <tr class="pushed-item">
+        <td>
+          <div class="cart-info">
+            <img src="./images/Coopers Milking Salve 100g.jpg" alt="">
+            <div>
+              <p>Milking Salve</p>
+              <small>price:ksh 150 </small>
+              <a href="">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>ksh 50</td>
+      </tr>
+    </table>
+
+    <div class="total-price">
+
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>ksh 25000</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>ksh 230</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+ 
+
+    <!------------------------footer-->
+    <div id="contact" class="footer">
+
+      <a id="jumpHere"></a>
+
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-3">
+            <h3>Contacts</h3>
+            <p>We are located along Ngong Road Nairobi <br> call us on</p>
+           <ul>
+            <li>+254720563260 Nairobi</li>
+            <li>+254780282847 Eldoret</li>
+ 
+            <li>email <a href="">robbyevans001@gmail.com</a>
+            </li>
+
+           </ul>
+          </div>
+          <!-- <div class="footer-col-1">
+            <h3>Contacts</h3>
+            <p></p>
+            <div class="app-logo">
+              <img id="30" src="./images/play-store.png" alt="">
+              <img  id="31"src="./images/app-store.png" alt="">
+            </div>
+          </div> -->
+          <!-- <div class="footer-col-2">
+            <img id="32" src="./images/logo-godrej.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum quod dolore, officiis perferendis nisi cum voluptate minima expedita quae?</p>
+
+          </div> -->
+          
+          <div class="footer-col-3">
+            <h3>useful links</h3>
+           <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Coupons</li>
+            <li>Be Affiliate</li>
+           </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+           <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">YouTube</a></li>
+           </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright" >copright@2022-Robbynet</p>
+      </div>
+    </div>
+
+    <!-----js for toggle menu-->
+    <script>
+
+    
+
+      let menuItems=document.getElementById('menuItems');
+      menuItems.style.maxHeight="0px";
+
+      function menutoggle(){
+        if (menuItems.style.maxHeight=="0px")
+        {
+          menuItems.style.maxHeight="200px";
+        }
+        else{
+          menuItems.style.maxHeight="0px";
+        }
+      }
+
+    </script>
+
+</body>
+</html>

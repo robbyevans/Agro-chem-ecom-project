@@ -1,0 +1,189 @@
+{"mainData":[ 
+  {
+    "id": 1,
+    "name":"dog",
+    "title": "Baraka Standard Planting Fertilizer 25kg",
+    "price": "ksh 2500",
+    "image":"./images/Baraka Standard Planting Fertilizer 25kg.jpg",
+    "color":"black"
+  },
+  
+  
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "urea",
+    "price": "ksh 1500",
+    "image":"./images/urea.jpg",
+    "color":"black"
+  },
+  {
+    "id": 1,
+    "item":"dog",
+    "title": "DAP fertilizer",
+    "price": "ksh 2300",
+    "image":"./images/DAP fertilizer.jpg",
+    "color":"brown"
+  },
+  {
+    "id": 1,
+    "item":"dog",
+    "title": "Yara Micro Planting 50kg",
+    "price": "ksh 3000",
+    "image":"./images/Yara Micro Planting 50kg.jpeg",
+    "color":"brown"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Yara DAP Chapa Meli Fertilizer 50kg",
+    "price": "ksh 2500",
+    "image":"./images/Yara DAP Chapa Meli Fertilizer 50kg.png",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Coopers Nilzan Drench Plus 150ml",
+    "price": "ksh 350",
+    "image":"./images/Coopers Nilzan Drench Plus 150ml.png",
+    "color":"grey"
+  },
+    {
+    "id": 1,
+    "item":"dog",
+    "title": "Yara Crop Boost 1l",
+    "price": "ksh 550",
+    "image":"./images/Yara Crop Boost 1l.jpeg",
+    "color":""
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title":"Coopers Milking Salve 100g",
+    "price": "ksh 250",
+    "image":"./images/Coopers Milking Salve 100g.jpg",
+    "color":"grey"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Chaff Cutter Petrol Powered 2 Blade001",
+    "price": "ksh 15000",
+    "image":"./images/Chaff Cutter Petrol Powered 2 Blade001.jpg",
+    "color":"white"
+  },
+  {
+    "id": 1,
+    "item":"dog",
+    "title": "Chaff Cutter diesel Powered 2 Blade",
+    "price": "ksh 18500",
+    "image":"./images/Chaff Cutter Petrol Powered 2 Blade.jpg",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"dog",
+    "title": "Knapsack Sprayer pump 20l",
+    "price": "ksh 6000",
+    "image":"./images/Knapsack Sprayer pump 20l.jpg",
+    "color":""
+  },
+  {
+    "id": 1,
+    "item":"dog",
+    "title": "Maclik Super Cow Salt 500g",
+    "price": "ksh 200",
+    "image":"./images/Maclik Super Cow Salt 500g.jpg",
+    "color":""
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Twigasate 200ml",
+    "price": "ksh 350",
+    "image":"./images/Twigasate 200ml.png",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"dog",
+    "title": "milkwhite",
+    "price": "ksh 670",
+    "image":"./images/milkwhite.jpg",
+    "color":"yellow"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Twiga Actellic Gold Dust 50g",
+    "price": "ksh 350",
+    "image":"./images/Twiga Actellic Gold Dust 50g.jpeg",
+    "color":"white"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Twigalick Joto (Livestock Use) 2kg",
+    "price": "ksh 750",
+    "image":"./images/Twigalick Joto (Livestock Use) 2kg.jpg",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Twiga Lick Maziwa Zaidi (Livestock Use) 1kg",
+    "price": "ksh 550",
+    "image":"./images/Twiga Lick Maziwa Zaidi (Livestock Use) 1kg.jpg",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Vitalblock (Livestock Use) 5kg",
+    "price": "ksh 1050",
+    "image":"./images/Vitalblock (Livestock Use) 5kg.png",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Vital Maziwa Cow Mineral Salt (Live Stock Use) 2kg",
+    "price":"ksh 750",
+    "image":"./images/Vital Maziwa Cow Mineral Salt (Live Stock Use) 2kg.jpg",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Coopers Triatix Stock Spray 100ml",
+    "price": "ksh 250",
+    "image":"./images/Coopers Triatix Stock Spray 100ml.png",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Maclik Plus Heifer salt 2kg",
+    "price": "ksh 300",
+    "image":"./images/Maclik Plus Heifer salt 2kg.png",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "Vital Nyama (Livestock Use) 5kg",
+    "price": "ksh 600",
+    "image":"./images/Vital Nyama (Livestock Use) 5kg.png",
+    "color":"ginger"
+  },
+  {
+    "id": 1,
+    "item":"cat",
+    "title": "lCoopers Triatix Stock Spray 100ml",
+    "price": "ksh 150",
+    "image":"./images/lCoopers Triatix Stock Spray 100ml.png",
+    "color":"ginger"
+  }
+  
+]}

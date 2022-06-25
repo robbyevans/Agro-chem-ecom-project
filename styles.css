@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Montserrat,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: #555;
+
+}
+p{
+  color: #555;
+}
+
+.input{
+  width: 350px;
+  padding: 10px;
+  border-radius: 30px;
+  
+}
+.input-btn{
+  background-color: #5fc878;
+  border: none;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+  
+}
+.row-1{
+  background-image: url(./images/3-Days-best-of-kericho-safari.jpg);
+  
+}
+.col-12{
+  flex-basis: 50%;
+  width: 100%;
+  background-image: url(./images/3-Days-best-of-kericho-safari.jpg);
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-header{
+  text-align: center;
+}
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+  color: #fff;
+}
+.col-2 p{
+  color: #fff;
+}
+h2{
+  color: #fff;
+}
+.btn{
+  display: inline-block;
+  background-color: #5fc878;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+.header{
+  background: radial-gradient(#fff,#5fc878);
+}
+.header .row{
+  margin-top: 70px;
+}
+.btn:hover{
+  background: #bce8c4;
+}
+.cartegories{
+  margin: 70px 0;
+
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img{
+  width :100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left:25px;
+  padding-right: 25px;
+
+}
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom:50px;
+  transition: transform 0.5s;
+
+}
+.col-4 img{
+  width:100%;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+
+}
+.title::after{
+  content: "";
+  background: #5fc878;
+  width: 80px;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  transform: translateX(-50%);
+}
+h4{
+  color: #555;
+  font-weight: normal;
+}
+.col-4{
+  font-size: 14px;
+}
+
+.col-4:hover{
+  transform:translateY(-5px)
+}
+.offer{
+  background: radial-gradient(#fff,#ffd6d6);
+  margin-top: 10px;
+  /* padding: 30px 0; */
+
+}
+.col-2 .offer-img{
+  padding: 50px;
+}
+small{
+  color: #555;
+}
+
+
+.col-3 p{
+  font-size: 12px;
+  margin: 12px;
+  color: #7777;
+}
+/*brands*/
+
+.brands{
+  margin: 100px auto;
+}
+.col-5{
+  width: 160px;
+
+}
+.col-5 img{
+width: 100%;
+cursor: pointer;
+filter:grayscale(100%)
+}
+.col-5 img:hover{
+  filter:grayscale(0%)
+}
+
+/* footer */
+.footer{
+  background: #000;
+  color: #ffff;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p{
+  color: #8a8a8a;
+
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+  flex-basis:12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+
+}
+.copyright{
+  text-align: center;
+}
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+/* media query for menu */
+@media only screen and (max-width:800px){
+  nav ul{
+    position:absolute;
+    top:70px;
+    left: 0px;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul li a{
+    color: #fff;
+  }
+  .menu-icon{
+    display:block;
+    cursor: pointer;
+  }
+}
+
+/* <!-----------media query for screen size less than 600---> */
+
+@media screen and (max-width:600px) {
+  .row{
+    text-align: center;
+
+  }
+  col-2,col-3,col-4{
+    flex-basis: 100%;
+  }
+}
+
+
+/* }
+
+:root{
+  --color-primary: #5b848c;
+  --color-secondary:#212121;
+  --color-accent:#606163;
+  --color-body:#f8f9fa;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type:none ;
+
+}
+nav ul li{
+  display: inline-block;
+  margin-right:  20px;;
+}
+a{
+  text-decoration: none;
+  color: #555;
+
+}
+body{
+display: flex;
+  
+}
+
+
+.header{
+  font-size: 2rem;
+  width: 80%;
+}
+/* .nav-bar{
+  /* display: flex; */
+  /* align-items: center; */
+  /* padding: 20px; */
+
+/* p{
+  color: #555;
+}
+
+.banner{
+  background:url("./images/web001.png");
+  background-size:contain;
+  object-fit: cover;
+  object-position: 20% 10%; 
+  background-repeat: no-repeat;
+  width:100%;
+  height: 70vh;
+  position: absolute;
+  max-width: 100%;
+  left: 25vw;
+  right: 25vw;
+  margin:auto;
+} */ 
+
+/* cart items */
+
+.cart-page{
+  margin: 80px auto;
+
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+th{
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background:#5fc878 ;
+}
+td{
+  padding: 10px 5px;
+
+}
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a{
+  color: #ff523b;
+}
+td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table{
+  border-top:3px solid #5fc878 ;
+  width: 100%;
+  max-width: 350px;
+}
+td:last-child{
+  text-align: right;
+}
+th:last-child{
+  text-align: right;
+}

@@ -1,1 +1,0 @@
-# Agro-chem-ecom-project
