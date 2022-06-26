@@ -73,6 +73,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     //   console.log(items)
     const p=document.getElementsByTagName('p')
 
+    // rendering prices to the DOM
 
     console.log(imgData[0].price)
     
@@ -109,14 +110,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     for( item of imgData){
       
     }
-    // console.log(item)
-    // console.log(items)
-    // console.log(itemArray)
-    itemsArray=itemArray
 
-    // items.innerHTML=item.title
 
-    // console.log(items.innerHTML)
 
     
       
@@ -128,11 +123,6 @@ document.addEventListener('DOMContentLoaded',()=>{
       });
 
     });
-
-
-    // document.querySelector("item-btn").addEventListener('click',()=>{
-    //   document.location.href="./cart.html"
-    // })
 
   })
    

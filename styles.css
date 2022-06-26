@@ -71,11 +71,7 @@ p{
   background-image: url(./images/3-Days-best-of-kericho-safari.jpg);
   
 }
-.col-12{
-  flex-basis: 50%;
-  width: 100%;
-  background-image: url(./images/3-Days-best-of-kericho-safari.jpg);
-}
+
 .col-2{
   flex-basis: 50%;
   min-width: 300px;
@@ -110,7 +106,7 @@ h2{
 
 }
 .header{
-  background: radial-gradient(--color-body,--color-primary);
+  background: radial-gradient(#fff,#5fc878);
 }
 .header .row{
   margin-top: 70px;
