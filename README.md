@@ -9,7 +9,7 @@
 -Agrochem is simple ecommerce website containing a list of agrochemical farm products.It consist of a single landing page made up of a header section,body section and a footer.  
 
 - This is a built by single contributor by the name Evans Rutto.
-- Agrochem intends to offer simless ecommerce services to the agricultural sector by providing easy and affordable access to vital agricultural chemicals and equipments countrywide.
+- Agrochem intends to offer simless ecommerce services to the agricultural sector by providing easy and affordable access to vital agricultural chemicals and equipments.
 
 - live link can be found at
   https://robbyevans.github.io/Agro-chem-ecom-project/
