@@ -244,12 +244,7 @@ filter:grayscale(100%)
 ul{
   list-style-type: none;
 }
-.app-logo{
-  margin-top: 20px;
-}
-.app-logo img{
-  width: 140px;
-}
+
 .footer hr{
   border: none;
   background: #b5b5b5;
@@ -266,6 +261,8 @@ ul{
   display: none;
 }
 /* media query for menu */
+
+
 @media only screen and (max-width:800px){
   nav ul{
     position:absolute;
