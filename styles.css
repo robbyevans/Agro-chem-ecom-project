@@ -287,6 +287,13 @@ ul{
   }
 }
 
+.comments-row{
+  max-width: 1080px;
+  margin: auto;
+  padding-left:25px;
+  padding-right: 25px;
+}
+
 /* <!-----------media query for screen size less than 600---> */
 
 @media screen and (max-width:600px) {
