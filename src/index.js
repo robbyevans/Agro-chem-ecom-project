@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     // rendering prices to the DOM
 
-    console.log(imgData[0].price)
+
     
     p[1].innerHTML=imgData[0].price
     p[1].innerHTML=imgData[1].price
@@ -101,8 +101,8 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     
     // }
-    console.log(h4[3].innerHTML)
-    console.log(imgData[1].title)
+
+
     
     // console.log(itemsArray)
 
@@ -135,9 +135,16 @@ document.addEventListener('DOMContentLoaded',()=>{
         const ul=document.querySelector("#comments-list")
         button.addEventListener('click',()=>{
           const coverli=document.createElement('li')
-          coverli.append(`@${inputName.value}  "${ inputmsg.value}"`)
+          
+          if(((inputmsg.value).length)>3){
+            coverli.append(`@${inputName.value}..."${ inputmsg.value}"`)
+            ul.appendChild(coverli)
+            e.target.reset()
+           
+          }
+          
 
-          ul.appendChild(coverli)
+
           e.target.reset()
         })
       })
