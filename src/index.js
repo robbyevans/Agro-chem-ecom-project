@@ -124,6 +124,26 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     });
 
+
+
+      const form=document.querySelector("#comment-form")
+      form.addEventListener('submit',(e)=>{
+        e.preventDefault()
+        const inputName=document.querySelector(".name-input")
+        const inputmsg =document.querySelector("#comment")
+        const button=document.querySelector(".comment-btn")
+        const ul=document.querySelector("#comments-list")
+        button.addEventListener('click',()=>{
+          const coverli=document.createElement('li')
+          coverli.append(`@${inputName.value}  "${ inputmsg.value}"`)
+
+          ul.appendChild(coverli)
+          e.target.reset()
+        })
+      })
+
+
+
   })
    
     

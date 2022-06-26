@@ -322,14 +322,6 @@ background-color: var(--color-secondary);
   height: 100px;
 }
 .comment-btn{
-  /* padding: 5px 15px;
-  margin-left:10px ;
-  margin-top: 10px;
-  border-radius: 7px;
-  background-color: #5fc878;
-  color: var(--color-body);
-  border: 2px solid var(--color-light-accent); */
-
   display: inline-block;
   background-color: var(--color-primary);
   color: var(--color-body);
@@ -345,6 +337,9 @@ background-color: var(--color-secondary);
   font-size: medium;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+.msgli{
+  color: var(--color-primary);
 }
 
 /* <!-----------media query for screen size less than 600---> */
