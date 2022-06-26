@@ -4,18 +4,27 @@
 
 - Evans Rutto
 
-## description
+## Description
 
-- Agrochem is sample ecommerce web application for selling agrochemical products.It consist of 2 pages a homepage which is the landing page as well as the cart page which is the checkout page. 
+- Agrochem is sample ecommerce web application for selling agrochemical products.It consist of 2 pages a homepage which is the landing page as well as the cart page which is the checkout page.
 
-- This is a built by single contributor by the  name Evans Rutto.
+- This is a built by single contributor by the name Evans Rutto.
 - Agrochem intends to offer simless ecommerce services to the agricultural sector by providing easy and affordable access to vital agricultural chemicals and equipments countrywide.
+
+- live link can be found at
+  https://robbyevans.github.io/Agro-chem-ecom-project/
+
+### Screenshot
+
+<img src="./images/screenshot01.png" width="900px" height="440px">
+<img src="./images/screenshot02.png" width="900px" height="440px">
+<img src="./images/screenshot03.png" width="900px" height="440px">
+<img src="./images/screenshot04.png" width="900px" height="440px">
 
 ## setup/installation
 
 1.clone this repo into your pc.
 src=(git@github.com:robbyevans/Agro-chem-ecom-project.git)
-
 
 2.open the repository containing the files cloned in vscode.
 
@@ -33,10 +42,10 @@ This project is 70% complete with the slight exception of the checkout page,addi
 
 - This website is mainly built on HTML,CSS and JavaScript.
 
-- Use of local server was implemented by creation of a json file,that is  db.json that contains all the data items to be rendered on the DOM.
+- Use of local server was implemented by creation of a json file,that is db.json that contains all the data items to be rendered on the DOM.
 
 - The data from the json file is then fetched using the fetch keyword in JavaScript and converted to useable data before being rendered to the DOM.
-While fetching the data a GET request is performed on the local API and a response is delivered hence data from our json file is successfully renered in the DOM.
+  While fetching the data a GET request is performed on the local API and a response is delivered hence data from our json file is successfully renered in the DOM.
 
 ## contact and Support
 
@@ -45,5 +54,4 @@ Any contribution to the code is welcome
 
 ## license
 
-This project is not covered by any license and is open source 
-
+This project is not covered by any license and is open source
