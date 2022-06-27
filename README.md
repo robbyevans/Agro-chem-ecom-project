@@ -1,4 +1,4 @@
-# AGROCHEM ECOMMERCE WEBAPP version 1.0
+# AGROCHEM ECOMMERCE WEBSITE version 1.0
 
 ## Author
 
@@ -36,7 +36,7 @@ This will start the local server from the json file.
 
 4.open the index.html file with live server
 
-This project is 70% complete with the slight exception of the checkout page,adding of selected elements to cart and payment system
+This project is a single page website with the exception of the checkout page,adding of selected elements to cart and payment system.
 
 ## Technology used
 
